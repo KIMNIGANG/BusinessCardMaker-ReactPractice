@@ -1,0 +1,28 @@
+@value makerWhite,makerBlack,makerLightGrey from "../../common/colors.css";
+
+.login {
+  width: 30em;
+  text-align: center;
+  background-color: makerWhite;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+.button {
+  width: 60%;
+  padding: 0.7em;
+  margin: 0.2em;
+  background-color: makerWhite;
+  outline: 0;
+  border: 2px solid makerBlack;
+  border-radius: 1.3em;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+.button:hover {
+  background-color: makerLightGrey;
+}
